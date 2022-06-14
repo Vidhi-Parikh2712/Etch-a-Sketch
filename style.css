@@ -1,0 +1,22 @@
+body
+{
+    display: flex;
+    height:98vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: thin;
+    width:700px;   
+    height:700px;
+}
+
+#btn {
+    padding:5px;
+    font-weight: bold;
+}
